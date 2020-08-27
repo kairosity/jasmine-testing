@@ -1,10 +1,14 @@
-function addition(numOne, numTwo) {
-
-    if(typeof(numOne) == "number" && typeof(numTwo) == "number") {
-        return numOne + numTwo;
+function addition(num1, num2) {
+    if((typeof(num1) === "number") && (typeof(num2) === "number")) {
+        return num1 + num2;
     } else {
-        return "Error!";
+        alert("Error!");
     }
-    
-
+}
+function subtraction(num1, num2) {
+    if((typeof(num1) === "number") && (typeof(num2) === "number")) {
+        return num1 - num2;
+    } else {
+        alert("Error!");
+    }
 }
