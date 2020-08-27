@@ -17,6 +17,16 @@ describe("Calculator", function(){
             expect(subtraction(10,4)).toBe(6);
         })
     })
+    describe("Multiplication tests", function(){
+        it("should return 7488", () =>{
+            expect(multiplication(78,96)).toBe(7488);
+        })
+    })
+    describe("Division tests", function(){
+        it("should return 2631", () =>{
+            expect(division(7893,3)).toBe(2631);
+        })
+    })
 });
 
     
